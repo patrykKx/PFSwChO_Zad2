@@ -22,7 +22,7 @@ jobs:
             image: patrykkazmierak/pfswchozad2:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: spatrykkazmierak/pfswchozad2:fib-router  
+            image: patrykkazmierak/pfswchozad2:fib-router  
     
     steps:
 
