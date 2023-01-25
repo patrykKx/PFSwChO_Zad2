@@ -13,16 +13,16 @@ jobs:
         include:
           - dockerfile: ./Dockerfile
             context: client
-            image: patrykkazmierak/PFSwChOzad2:fib-client
+            image: patrykkazmierak/pfswchozad2:fib-client
           - dockerfile: ./Dockerfile
             context: server
-            image: patrykkazmierak/PFSwChOzad2:fib-server
+            image: patrykkazmierak/pfswchozad2:fib-server
           - dockerfile: ./Dockerfile
             context: worker
-            image: patrykkazmierak/PFSwChOzad2:fib-worker
+            image: patrykkazmierak/pfswchozad2:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: spatrykkazmierak/PFSwChOzad2:fib-router  
+            image: spatrykkazmierak/pfswchozad2:fib-router  
     
     steps:
 
